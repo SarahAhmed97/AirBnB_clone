@@ -88,7 +88,7 @@ class DBStorage:
                 for item in obj_class:
                     obj_dict[item.id] = item
             return obj_dict[id]
-        except:
+        except Exception:
             return None
 
     def count(self, cls=None):

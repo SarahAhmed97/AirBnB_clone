@@ -353,5 +353,6 @@ class TestGetCountDB(unittest.TestCase):
         self.assertEqual(place_count, 0)
         self.assertEqual(all_count, 7)
 
+
 if __name__ == '__main__':
     unittest.main
